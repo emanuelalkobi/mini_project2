@@ -36,7 +36,7 @@ if (int(nb)==2 or int(nb)==3):
     print("TensorFlow classifier is running")
     print("---------------------------------------------------------------------------------")
     os.system('python label_image.py --graph=output_graph.pb --labels=output_labels.txt --input_layer=Placeholder  --output_layer=final_result --image='+file_name )
-else:
+if (int(nb)!=1 and int(nb)!=2 and int(nb)!=3):
     print("Please type a number between 1 to 3")
     sys.exit(1)
 

@@ -141,6 +141,12 @@ if __name__ == "__main__":
   print("---------------------------------------------------------------------------------")
   print("TensorFlow results")
   print("---------------------------------------------------------------------------------")
-  print("Predicted class name: {}".format(labels[1]))
-  print("Predicted class name: {}".format(results[1]))
+  res1=results[1]
+  res0=results[0]
+  if (res1>res0):
+    print("Predicted class name: {}".format(labels[1]))
+    print("Predicted class name: {}".format(results[1]))
+  else:
+    print("Predicted class name: {}".format(labels[0]))
+    print("Predicted class name: {}".format(results[0]))
   #print(labels[0], results[0])
