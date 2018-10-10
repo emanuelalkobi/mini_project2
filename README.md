@@ -23,10 +23,6 @@ gcloud auth application-default print-access-token
 gcloud auth login
 
 
-gcloud projects add-iam-policy-binding clas-219000 --member="user:emanuelalkobi@gmail.com" --role="roles/automl.admin"
-
-gcloud projects add-iam-policy-binding clas-219000 --member="serviceAccount:custom-vision@appspot.gserviceaccount.com" --role="roles/storage.admin"
-
 
 
 
