@@ -1,4 +1,4 @@
-# mini_project2
+# mini_project2 build classifier
 In this mini project I will build a machine learning classifier for soccer balls.
 as our main project is to detect an offside and the main diffuclty is to detect the soccer ball ,i hope that this classifier will give up better results.
 My data set consitst of photots with soocer balls and with photos with no soccer ball.
